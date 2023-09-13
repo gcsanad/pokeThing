@@ -1,7 +1,7 @@
 let dropdown = document.getElementById("pokemons")
 let pokePic = document.getElementById("pokePic")
 let pokeTypes = document.getElementById("types")
-const url = "https://pokeapi.co/api/v2/pokemon?limit=5"
+const url = "https://pokeapi.co/api/v2/pokemon?limit=500"
 
 fetch(url)
 .then(res => res.json())
